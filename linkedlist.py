@@ -63,4 +63,4 @@ val=trial.search(1)
 if val:
   print('Found')
 trial.delete(1)
-trial.print()
+trial.printdata()
