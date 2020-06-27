@@ -17,7 +17,7 @@ class LinkedList(object):
       current=current.link#getting the address
     current.link=new_node#storing the new element
 
-  def print(self):
+  def printdata(self):
     current=self.head
     while current:
       print(current.data)#prints the data
@@ -58,7 +58,7 @@ trial=LinkedList()
 trial.insert(1)
 trial.insert(2)
 trial.insert(3)
-trial.print()
+trial.printdata()
 val=trial.search(1)
 if val:
   print('Found')
